@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(to bottom, #8e44ad, #f3e5f5); /* Gradient from vibrant violet to light violet */
+    background-size: cover;
+    background-position: center;
+    color: #2c3e50; /* Darker color for text for better contrast */
+}
+
+label {
+    font-weight: bold;
+    color: #6a1b9a; /* Vibrant violet color */
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 200px;
+    border: 2px solid #8e44ad; /* Add a border matching the gradient color scheme */
+}
+
+.background {
+    background-color: #8e44ad; /* Vibrant violet */
+}
+
+#cv-template button,
+#cv-template .container button {
+    background-color: #6a1b9a; /* Vibrant violet */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust margin for better visibility */
+}
+
+#cv-template button:hover,
+#cv-template .container button:hover {
+    background-color: #4a148c; /* Darker violet for hover effect */
+}
+
+.container {
+    background-color: #f3e5f5; /* Light violet for the container background */
+    padding: 20px;
+    border-radius: 10px;
+    color: #2c3e50; /* Darker color for text for better contrast */
+}
+
+.btn-primary,
+.btn-danger {
+    color: #fff;
+    background-color: #8e44ad; /* Vibrant violet for primary and danger buttons */
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+}
+
+#cv-template h1 {
+    color: #6a1b9a; /* Vibrant violet color */
+}
+
+#cv-form h1 {
+    font-weight: bold;
+    color: #4a148c; /* Darker violet for form heading */
+}
+
+/* Template 1 styles - Minimalistic Design */
+#cv-template.template-1 {
+    background-color: #f3e5f5; /* Light violet for the template background */
+    color: #2c3e50;
+    border: 1px solid #8e44ad; /* Vibrant violet border */
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template.template-1 h1 {
+    color: #6a1b9a; /* Vibrant violet for the heading */
+    border-bottom: 2px solid #8e44ad;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#cv-template.template-1 .card {
+    background-color: #ffffff;
+    color: #2c3e50;
+    border: 1px solid #8e44ad; /* Vibrant violet border */
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template.template-1 .image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cv-template.template-1 .image-container img {
+    border-radius: 50%;
+    border: 4px solid #8e44ad; /* Vibrant violet border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Template 2 styles - Dark Violet */
+#cv-template.template-2 {
+    background-color: #8e44ad; /* Vibrant violet background */
+    color: white;
+    border: 3px solid #f3e5f5; /* Light violet border */
+    border-radius: 15px; /* 12px */
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template.template-2 h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #4a148c; /* Darker violet for the heading underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#cv-template.template-2 .card {
+    background-color: #f3e5f5; /* Light violet for the card background */
+    color: #6a1b9a; /* Vibrant violet for the card text */
+    border: 2px solid #8e44ad; /* Vibrant violet border */
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template.template-2 .image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cv-template.template-2 .image-container img {
+    border-radius: 50%;
+    border: 4px solid #4a148c; /* Darker violet border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-left: 43%;
+    color: #6a1b9a; /* Vibrant violet for footer text */
+}
